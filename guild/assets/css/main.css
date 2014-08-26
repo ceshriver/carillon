@@ -1,0 +1,943 @@
+hr {
+  width: 100px;
+}
+body {
+  font-weight: normal;
+  background-color: #000044;
+  text-align: left;
+  line-height: 1.1em;
+  font-family: verdana,arial,helvetica,sans-serif;
+  }
+table {
+  //border-color: black;
+  //border-width: 0px 0 1px 1px;
+  //border-left: 1px solid black;
+  //border-bottom: 1px solid black;
+  font-weight: normal;
+  background-color: #000044;
+  font-family: verdana,arial,helvetica,sans-serif;
+  line-height: 1.2em;
+  padding-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.meja {
+  border: 1px solid silver;
+  padding: 0px;
+  background-color: white;
+  margin-top: 0px;
+}
+td {
+  border-style: solid;
+  border-width: 1px 1px 0 0;
+  font-family: verdana,arial,helvetica,sans-serif;
+  vertical-align: top;
+}
+div#header-title {
+  height: 110px;
+  background-image: url('../images/ygc.jpg');
+  background-position: left center;
+}
+
+h1 {
+	font-style: italic;
+	font-family: verdana,arial,helvetica,sans-serif;
+	font-size: 20pt;
+	color: #036;
+}
+
+h2 {
+  font-style: italic;
+  font-family: verdana,arial,helvetica,sans-serif;
+
+}
+h3 {
+  font-family: verdana,arial,helvetica,sans-serif;
+  font-weight: bold;
+  font-size: small;
+}
+.main {
+  padding: 15px;
+
+}
+.footnote {
+  padding: 8px;
+  background-color: #ffcc00;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: #714b25;
+}
+a:active {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+.data {
+  border:  none;
+  font-family: verdana,arial,helvetica,sans-serif;
+}
+
+#content {
+	padding-left: 10px;
+}
+
+
+div#sidebar-left {
+	width:0px;
+	
+}
+
+
+
+
+/*Stephen needs better security*/
+
+/* Begin Library Styling */
+
+.library_table {
+	width: 750px;
+	background-color: #FFF;
+	border: none;
+}
+.library_titles {
+}
+.library_table tr {
+	background-color: white;
+	border: none;
+}
+
+.library_table td {
+	background-color: white;
+	border: none;
+}
+.library_header {
+	background-color: white;
+	font-size: 12pt;
+	color: #036;
+}
+
+.library_data {
+	font-size: 10pt;
+	color: #036;
+}
+
+.library_data_selected {
+	width: 20px;
+	margin-right: 10px;
+}
+
+.library_results_row td {
+	background-color: rgba(200,200,200,0.2);
+}
+
+.lightRow td {
+	background-color: rgba(255,255,255,0.4);
+}
+
+.library_results_row:hover {
+	background-color: rgba(200,200,200,0.9);
+}
+
+.library_divider {
+	width: 100%;
+	border-bottom: solid thin #036;
+}
+
+#addButton, .menuButton {
+	color: #036;
+	font-size: 12pt;
+	/*width: 20px;*/
+	height: 15px;
+	border: solid thin #036;
+	float: right;
+	text-align: center;
+	margin-right: 20px;
+	padding: 5px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#addButton:hover, .menuButton:hover {
+	background-color: rgba(200,200,200,0.9);
+	cursor:pointer;
+}
+
+
+
+#libraryEntryCount {
+	color: rgba(200,200,200,0.9);
+}
+
+#libraryButtonBar {
+	height: 30px;
+}
+
+#library_not_found_container {
+	margin-left: 20px;
+}
+#library_entry_container {
+	margin-top: 40px;
+	margin-left: 20px;
+	width: 700px;
+	
+}
+.library_entry_table {
+	float: left;
+	width: 200px;
+	margin-left: 0;
+	margin-right: 0;
+}
+.library_entry_table tbody {
+	//float: right;
+}
+.library_floatTable_col1 {
+	text-align: right;
+	font-weight: bold;
+}
+
+.library_entry_editLink {
+	float: right;
+	text-align: right;
+	margin-right: 30px;
+}
+
+.library_edit_entry_form {
+	margin-bottom: 20px;
+	margin-left: 10px;	
+}
+.library_entry_table {
+	margin-top: 20px;
+}
+
+.library_edit_entry_form tr td:first-child {
+	text-align: right;
+}
+
+input {
+	width: 200px;
+}
+
+.form_button {
+	width: 80px;
+	margin-left: 15px;
+}
+
+#libraryButtonBar input {
+	float: left;
+	height: 20px;
+	color: #036;
+	
+}
+#libraryButtonBar {
+	margin-bottom: 30px;
+}
+.library_who_plays_name {
+	font-size: 12pt;
+}
+.library_who_plays_photo {
+	
+}
+.library_who_plays_photo_frame {
+	width: 30px;
+	height: 30px;
+	background-position: center;
+	background-repeat:  no-repeat;
+	background-size:30px;
+}
+
+/* End Library Styling */
+
+
+/* Begin Guildies Styling */
+
+.guildie_table {
+	width: 750px;
+	background-color: #FFF;
+	border: none;
+}
+
+.guildie_table tr {
+	background-color: white;
+	border: none;
+}
+
+.guildie_table td {
+	background-color: white;
+	border: none;
+}
+.guildie_header {
+	background-color: white;
+	font-size: 14pt;
+	color: #036;
+}
+
+.guildie_data {
+	font-size: 10pt;
+	color: #036;
+}
+
+.guildie_results_row {
+	height: 80px;
+}
+
+.guildie_divider {
+	width: 100%;
+	border-bottom: solid thin #036;
+}
+
+#guildieEntryCount {
+	color: rgba(200,200,200,0.9);
+}
+
+#guildieButtonBar {
+	height: 30px;
+}
+
+
+#guildie_entry_container {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 700px;
+	
+}
+.guildie_entry_table {
+
+	width: 500px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.guildie_entry_table tbody {
+	float: right;
+}
+.guildie_floatTable_col1 {
+	text-align: right;
+	font-weight: bold;
+}
+
+.guildie_entry_editLink {
+	float: right;
+}
+
+.guildie_edit_entry_form {
+	width: 700px;
+
+	margin-left: 10px;	
+}
+.guildie_entry_table {
+
+}
+
+.guildie_edit_entry_form tr td:first-child {
+	text-align: right;
+}
+
+#guildieButtonBar input {
+	float: left;
+	height: 20px;
+	color: #036;
+	
+}
+#guildieButtonBar {
+	margin-bottom: 30px;
+}
+
+.guildie_photo {
+	height: 80px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:70px;
+}
+
+textarea {
+	width: 400px;
+	height: 200px;
+	font-size: 12pt;
+}
+
+
+.guildies_play_table {
+	width: 400px;
+	float: left;
+	text-align: left;
+	color: #036;
+	margin-bottom: 30px;
+}
+.guildies_play_table tr {
+	border: solid thin rgba(200,200,200,0.8);
+}
+
+#guildies_play_title_row {
+	font-size: 12pt;
+	border-bottom: solid thin #036;
+	//border-top: none;
+	//border-left: none;
+	//border-right: none;
+}
+
+.guildies_play_select_input {
+	width: 20px;
+}
+
+.guildies_play_table {
+	
+}
+
+.guildies_play_add {
+	color: #036;
+	border: solid thin #036;
+	width: 17px;
+	height:17px;
+	text-align: center;
+	line-height: 13pt;
+	cursor: pointer;
+}
+
+.guildies_play_selected {
+	
+}
+
+.guildies_play_add_selected {
+	border: solid thin green;
+	color: green;
+}
+
+.guildies_play_add_remove {
+	border: solid thin red;
+	color: red;
+}
+
+.guildies_play_add:hover {
+	background-color: rgba(180,180,180,0.4);
+}
+
+.guildies_play_add:active {
+	background-color: rgba(180,180,180,0.8);
+}
+
+#guildies_play_proxy_row {
+	display: none;
+}
+
+.guildies_play_row {
+	opacity: 0.5;
+}
+.guildies_play_permanent {
+	background-color: rgba(0,255,0,0.2);
+	opacity: 1.0;
+}
+
+/*Image Uploading*/
+
+div#guildie_image_uploader {
+	border: solid thin #036;
+	width: 150px;
+	height: 150px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: right;
+}
+
+#guildie_image_uploader_overlay {
+	background-color: rgba(255,255,255,0.8);
+	width: 150px;
+	height: 150px;
+	color: #036;
+	opacity: 0.0;
+	text-align: center;
+	line-height: 110pt;
+	font-size: 14pt;
+}
+
+
+/* End Guildie Styling */
+
+/* Begin Schedule Styling */
+
+.schedule_table {
+	width: 750px;
+	background-color: #FFF;
+	border: none;
+}
+
+.schedule_table tr {
+	background-color: white;
+	border: none;
+}
+
+.schedule_table td {
+	background-color: white;
+	border: none;
+}
+.schedule_header {
+	background-color: white;
+	font-size: 14pt;
+	color: #036;
+}
+
+.schedule_data {
+	font-size: 10pt;
+	color: #036;
+	text-align: left;
+}
+.schedule_day {
+	//float: right;
+}
+.schedule_ringers_list {
+	float: left;
+	margin-left: -20px;
+}
+
+.schedule_results_row {
+	height: 20px;
+}
+
+.schedule_divider {
+	width: 100%;
+	border-bottom: solid thin #036;
+}
+
+#scheduleEntryCount {
+	color: rgba(200,200,200,0.9);
+}
+
+#scheduleButtonBar {
+	height: 30px;
+}
+
+
+#schedule_entry_container {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 700px;
+	
+}
+.schedule_entry_table {
+
+	width: 700px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.schedule_entry_table tbody {
+	float: left;
+}
+.schedule_floatTable_col1 {
+	text-align: right;
+	font-weight: bold;
+}
+
+.schedule_entry_editLink {
+	float: right;
+}
+
+.schedule_edit_entry_form {
+	width: 700px;
+
+	margin-left: 10px;	
+}
+.schedule_entry_table {
+
+}
+
+.schedule_edit_entry_form tr td:first-child {
+	text-align: right;
+}
+
+#scheduleButtonBar input {
+	float: left;
+	height: 20px;
+	color: #036;
+	
+}
+#scheduleButtonBar {
+	margin-bottom: 30px;
+}
+
+
+/* End Schedule Styling */
+
+/* Begin Recordings Styling */
+
+
+.recording_table {
+	width: 750px;
+	background-color: #FFF;
+	border: none;
+}
+
+.recording_table tr {
+	border: none;
+}
+
+.recording_table td {
+	border: none;
+}
+.recording_header {
+	background-color: white;
+	font-size: 14pt;
+	color: #036;
+}
+
+.recording_data {
+	font-size: 10pt;
+	color: #036;
+}
+.recording_date {
+	text-align: center;
+}
+
+.recording_results_row {
+	height: 40px;
+}
+
+.recording_divider {
+	width: 100%;
+	border-bottom: solid thin #036;
+}
+
+#recordingEntryCount {
+	color: rgba(200,200,200,0.9);
+}
+
+#recordingButtonBar {
+	height: 30px;
+}
+
+
+#recording_entry_container {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 700px;
+	
+}
+.recording_entry_table {
+
+	width: 500px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.recording_entry_table tbody {
+	float: right;
+}
+.recording_floatTable_col1 {
+	text-align: right;
+	font-weight: bold;
+}
+
+.recording_entry_editLink {
+	float: right;
+}
+/*Chris is best*/
+.recording_edit_entry_form {
+	width: 700px;
+
+	margin-left: 10px;	
+}
+
+.recording_edit_entry_form tr td:first-child {
+	text-align: right;
+}
+
+#recordingButtonBar input {
+	float: left;
+	height: 20px;
+	color: #036;
+	
+}
+#recordingButtonBar {
+	margin-bottom: 30px;
+}
+
+.recording_photo {
+	height: 60px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60px;
+	margin-bottom: -100px;
+}
+
+div#recording_image_uploader {
+	border: solid thin #036;
+	width: 150px;
+	height: 150px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: right;
+}
+
+#recording_image_uploader_overlay {
+	background-color: rgba(255,255,255,0.8);
+	width: 150px;
+	height: 150px;
+	color: #036;
+	opacity: 0.0;
+	text-align: center;
+	line-height: 110pt;
+	font-size: 14pt;
+}
+
+.recordings_divider_row td {
+	border-bottom: solid thin rgba(0,51,102,0.3);
+	opacity: 0.2;
+}
+
+.recording_manage_table {
+	width: 500px;
+	margin-left: 100px;
+	border-left: solid thin rgba(200, 200, 200, 0.8);
+	
+	border-right: solid thin rgba(200, 200, 200, 0.8);
+	border-top: solid thin #036;
+}
+
+.recording_manage_table tr  {
+	height: 30px;
+}
+
+.recording_manage_table td {
+	border-bottom: solid thin rgba(200, 200, 200, 0.8);
+}
+
+#recordings_guildie_image {
+	border: solid thin #036;
+	width: 100px;
+	height: 100px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: right;
+}
+
+.recording_manage_table_titles {
+	width: 500px;
+	margin-top: 90px;
+ 	font: 14pt;
+ 	margin-left: 100px;
+ 	margin-bottom: 10px;
+}
+/*my baby*/
+.recording_records_row_play_button {
+	width: 25px;
+	height: 25px;
+	background-image: url("../images/play.png");
+	background-size: cover;
+}
+.recordings_manage_piece_info {
+	font-size: 8pt;
+	font-weight: normal;
+	margin-left: 10px;
+}
+
+.recording_selection_table {
+	width: 500px;
+	margin-left: 100px;
+	margin-top: 60px;
+}
+
+
+.recording_selection_table_titlerow td{
+	background-color: white;
+	border-top: none;
+}
+
+.recording_selection_table_titlerow {
+	color: #036;
+	font-size: 12pt;
+}
+.recording_selection_table_titlerow div {
+	margin-top: 5px;
+}
+
+
+.recording_selection_table_firstrow  {
+	border: solid thin rgba(200, 200, 200, 0.8);
+}
+
+.recording_selection_table_firstrow td {
+	background-color: rgba(230,230,230,0.2);
+}
+
+.recording_selection_header {
+	font-size: 8pt;
+}
+
+.recording_manage_table_titles {
+	margin-top: 40px;
+}
+
+
+.recordings_search_permanent {
+	background-color: rgba(0,255,0,0.2);
+	opacity: 1.0;
+}
+
+#recordings_edit_search_row {
+	border-bottom: solid thin rgba(200, 200, 200, 0.8);
+}
+
+.recording_manage_table {
+	margin-top: 60px;
+}
+
+.recording_selection_table {
+	margin-top: -10px;
+	border-bottom: solid thin rgba(200, 200, 200, 0.8);
+	border-left: solid thin rgba(200, 200, 200, 0.8);
+	border-right: solid thin rgba(200, 200, 200, 0.8);
+}
+
+#recordings_edit_search_proxy_row {
+	display: none;
+}
+
+.recordings_edit_search_result_hover {
+	background-color: rgba(200,200,200,0.3);
+}
+
+.recording_selection_table_firstrow:hover {
+	background-color: rgba(37,73,121,0.2);
+}
+
+
+/* End Recordings Scheduling */
+
+/* Begin News Section */
+
+
+.news_table {
+	width: 750px;
+	background-color: #FFF;
+	border: none;
+}
+
+.news_table tr {
+	background-color: white;
+	border: none;
+}
+
+.news_table td {
+	background-color: white;
+	border: none;
+}
+.news_header {
+	background-color: white;
+	font-size: 14pt;
+	color: #036;
+}
+
+.news_data {
+	font-size: 10pt;
+	color: #036;
+	text-align: left;
+}
+.news_day {
+	//float: right;
+}
+.news_ringers_list {
+	float: left;
+	margin-left: -20px;
+}
+
+.news_results_row {
+	height: 60px;
+}
+
+.news_results_row td {
+	border-bottom: solid thin rgba(200,200,230,0.6);
+}
+
+.news_divider {
+	width: 100%;
+	border-bottom: solid thin #036;
+}
+
+#newsEntryCount {
+	color: rgba(200,200,200,0.9);
+}
+
+#newsButtonBar {
+	height: 30px;
+}
+
+
+#news_entry_container {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 700px;
+	
+}
+.news_entry_table {
+
+	width: 700px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.news_entry_table tbody {
+	float: left;
+}
+.news_floatTable_col1 {
+	text-align: right;
+	font-weight: bold;
+}
+
+.news_entry_editLink {
+	float: right;
+}
+
+.news_edit_entry_form {
+	width: 700px;
+
+	margin-left: 10px;	
+}
+.news_entry_table {
+
+}
+
+.news_edit_entry_form tr td:first-child {
+	text-align: right;
+}
+
+#newsButtonBar input {
+	float: left;
+	height: 20px;
+	color: #036;
+	
+}
+#newsButtonBar {
+	margin-bottom: 30px;
+}
+
+.news_photo {
+	width:50px;
+	height:50px;
+	margin-left: 10px;
+	margin-top: 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.news_content {
+	font-size: 7pt;
+}
+
+.news_title {
+	margin-bottom: 10px;
+}
+/*why so much css? it's impressive someone was able to write so much*/
+/* End News Section */
+
+
+
+
+
